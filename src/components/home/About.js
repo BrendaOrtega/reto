@@ -7,7 +7,7 @@ class About extends Component {
         return (
             <div>
                 <div className="about">
-                    <div className="flex">
+                    <div className="fl">
                         <div className="about_card">
 
                             <img className="icono" src={icono} alt=""/>
@@ -41,7 +41,7 @@ class About extends Component {
                 </div>
                 <div className="video">
                     <h2>CONOCE MÁS</h2>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Grq_h8S_UlE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <iframe className="vid" height="315" src="https://www.youtube.com/embed/5lrfakl22s0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
             </div>
         );

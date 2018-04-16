@@ -7,6 +7,17 @@ class Retos extends Component {
         return (
             <div className="retos">
                 <h2>CENTRO DE RETOS</h2>
+                <div className="fl">
+                    <div className="box_reto">
+
+                    </div>
+                    <div className="box_reto">
+
+                    </div>
+                    <div className="box_reto">
+
+                    </div>
+                </div>
             </div>
         );
     }
