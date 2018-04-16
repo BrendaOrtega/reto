@@ -8,11 +8,11 @@ class Slide extends Component {
         return (
             <div className="slide">
                 <div className="box_slide">
-                    <img className="logo" src={logo} alt=""/>
-                  <div className="card_negra">
-                        <p><strong>ACCEDE A UNA GRAN DIVERSIDAD DE PROPUESTAS DE SOLUCION</strong><br/>PARA LOS RETOS TECNOLÓGICOS Y DE NEGOCIO QUE TIENE TU ORGANIZACIÓN</p>
+                    <img className="logo bot" src={logo} alt=""/>
+                  <div className="card_negra bot">
+                        <p className="bot"><strong>ACCEDE A UNA GRAN DIVERSIDAD DE PROPUESTAS DE SOLUCION</strong><br/>PARA LOS RETOS TECNOLÓGICOS Y DE NEGOCIO QUE TIENE TU ORGANIZACIÓN</p>
                   </div>
-                    <div className="promotores">
+                    <div className="promotores bot">
                         <img src={gob} alt=""/>
                         <img src={gob} alt=""/>
                         <img src={gob} alt=""/>

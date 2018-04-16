@@ -8,15 +8,15 @@ class Retos extends Component {
 
     render() {
         return (
-            <div className="retadores">
-                <h2>RETADORES QUE HAN PARTICIPADO</h2>
+            <div className="retadores bot">
+                <h2 className="bot">RETADORES QUE HAN PARTICIPADO</h2>
                 <div className="fl">
-                    <img src={concamin} alt=""/>
-                    <img src={ca} alt=""/>
-                    <img src={profeco} alt=""/>
-                    <img src={concamin} alt=""/>
-                    <img src={ca} alt=""/>
-                    <img src={profeco} alt=""/>
+                    <img className="bot" src={concamin} alt=""/>
+                    <img className="bot" src={ca} alt=""/>
+                    <img className="bot" src={profeco} alt=""/>
+                    <img className="bot" src={concamin} alt=""/>
+                    <img className="bot" src={ca} alt=""/>
+                    <img className="bot" src={profeco} alt=""/>
                 </div>
             </div>
         );
