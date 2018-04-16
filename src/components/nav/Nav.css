@@ -2,6 +2,7 @@
     width:100%;
     background-color: white;
     position: fixed;
+    z-index: 999;
 }
 .nav_container{
     width:95%;
