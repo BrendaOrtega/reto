@@ -11,7 +11,7 @@ class ConoceContainer extends Component {
         <div className="box_slide">
             <img src={RMX} className="logo bot" alt="RMXLogo" />
             <div className="card_negra title-retadores">
-              <p className="bot" style={{textShadow: 'none'}}>
+              <p className="bot" style={{ textShadow: 'none', width: '100%', fontSize: '120%', textAlign: 'left'}}>
                 <strong style={{textShadow: '0px 1px 5px black'}}>Traspasa los límites de tu organización </strong> <br/>
                 con la innovación abierta basada en retos.
             </p>
