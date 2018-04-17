@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./styles.css";
 import reto from '../../assets/bk-creencias.jpg'
-import RMX from '../../assets/RMX.svg'
+import RMX from '../../assets/logo_white.png'
 
 class ConoceContainer extends Component {
   render() {
@@ -11,8 +11,8 @@ class ConoceContainer extends Component {
         <div className="box_slide">
             <img src={RMX} className="logo bot" alt="RMXLogo" />
             <div className="card_negra title-retadores">
-              <p className="bot">
-                <strong>Traspasa los límites de tu organización </strong> <br/>
+              <p className="bot" style={{textShadow: 'none'}}>
+                <strong style={{textShadow: '0px 1px 5px black'}}>Traspasa los límites de tu organización </strong> <br/>
                 con la innovación abierta basada en retos.
             </p>
             </div>
