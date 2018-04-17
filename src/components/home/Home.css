@@ -1,0 +1,266 @@
+/*Slide*/
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+.slide{
+    text-align: center;
+    width:100%;
+    height:95vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://www.free-photo.cc/images/gallery/details/architecture_and_buildings_27/blur_photo_of_brooklyn_bridge_20171118_1164267446.jpg');
+}
+.box_slide{
+    padding-top: 10%;
+}
+.logo{
+    width:300px;
+    margin: 10px 0 50px 0;
+}
+.card_negra{
+    width:80%;
+    height:100px;
+    margin: 0 auto;
+    background-color: rgba(0,0,0,.6);
+    color:white;
+    font-size: 20px;
+    padding: 1.5% 2%;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+.promotores{
+    margin-top:150px;
+}
+.promotores img{
+    margin: 0 20px;
+    width:150px;
+}
+
+/*About*/
+
+.about_card{
+    text-align: center;
+    margin: 50px 0;
+    width:300px;
+    flex-grow: 1;
+    padding: 0 2%;
+}
+.about_card h2{
+    text-transform: uppercase;
+}
+.about_card p{
+    text-align: justify !important;
+}
+.about_card h4{
+    color:#2E9890;
+    font-size: 18px;
+}
+.bleu{
+    color:#2E9890;
+}
+.icono{
+    width:150px;
+}
+.video{
+    background-color: #E2E5E9;
+    width:100%;
+    height:auto;
+    padding: 70px 0 100px 0;
+    text-align: center;
+}
+.video h2{
+    color:#5A5B5E;
+    font-size: 35px;
+    font-weight: 600;
+}
+.vid{
+    width:500px;
+}
+
+/*Retos*/
+.retos{
+    background-color: #EF5E6C;
+    padding: 50px 0;
+    text-align: center;
+}
+.retos h2{
+    color:white;
+    font-size: 35px;
+    font-weight: 600;
+}
+.box_reto{
+    width:300px;
+    height:300px;
+    margin: 0px 10px 40px 10px;
+    background-size: cover;
+    background-position:center ;
+    background-image: url(../../assets/reto.png);
+}
+.fl{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+}
+/*Retadores*/
+
+.retadores{
+    background-color: #23505E;
+    padding: 50px 0;
+    text-align: center;
+}
+.retadores h2{
+    color:white;
+    font-size: 35px;
+    font-weight: 600;
+}
+.retadores img{
+    width:120px;
+    margin: 30px 20px;
+}
+/*Why*/
+.why{
+    padding: 50px 10%;
+    text-align: center;
+}
+.why h2{
+    color:#5A5B5E;
+    font-size: 35px;
+    font-weight: 600;
+}
+.why p{
+    font-size: 20px;
+    text-align: justify !important;
+}
+.btn_mas{
+    font-size: 20px;
+    width:150px;
+    height:40px;
+    border: none;
+    background-color: #E2E5E9;
+    margin: 30px 0;
+}
+.why img{
+    width:80%;
+}
+
+/*Exitos*/
+.exitos{
+    background-color: #E2E5E9;
+    padding: 50px 0;
+    text-align: center;
+
+}
+.exitos h2{
+    color:#5A5B5E;
+    font-size: 35px;
+    font-weight: 600;
+}
+.exitos p{
+    font-size: 20px;
+}
+.ex_video{
+    width:430px;
+}
+/*Blog*/
+.blog{
+    background-color: #BCD8D5;
+    padding: 50px 0;
+    text-align: center;
+
+}
+.blog h2{
+    color:#5A5B5E;
+    font-size: 35px;
+    font-weight: 600;
+}
+.box_blog{
+    width:300px;
+    height:400px;
+    color:#5A5B5E;
+    margin: 0 20px;
+}
+.box_blog h3{
+    color:#5A5B5E;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.justi{
+    text-align: justify;
+}
+.img_blog{
+    width:100%;
+    overflow: hidden;
+    height:50%;
+}
+.img_blog img{
+    height:100%;
+    width:auto;
+}
+/*Contacto*/
+.flexi{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px 0;
+
+}
+.contacto{
+    background-color: #23505E;
+    padding: 50px 0 1px 0;
+    text-align: center;
+    color:white;
+}
+.contacto h2{
+    color:white;
+    font-size: 35px;
+    font-weight: 600;
+}
+.data, .abut, .descript{
+    width:300px;
+    flex-grow: 1;
+    margin: 0 40px;
+}
+.data span{
+    margin: 0 10px 0 0;
+}
+.data, .descript{
+    text-align: left !important;
+}
+.data p, .abut p{
+    font-size: 15px;
+}
+.abut p{
+    text-align: justify;
+}
+.data img{
+    width:200px;
+    margin: 0px 0 30px 0;
+}
+.abut h3{
+    font-size: 20px;
+    color:white;
+}
+.abut span{
+    font-size: 30px !important;
+    margin: 0 20px 0 0;
+}
+.descript{
+    padding-left: 10%;
+}
+@media(max-width: 450px){
+    .logo{
+        width:200px;
+        margin: 50px 0;
+    }
+    .card_negra{
+        height:auto;
+    }
+    .promotores{
+        margin-top: 100px;
+    }
+    .vid, .ex_video{
+        width:350px;
+    }
+}

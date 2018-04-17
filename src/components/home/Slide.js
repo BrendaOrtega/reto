@@ -1,0 +1,27 @@
+import React, { Component } from 'react';
+import './Home.css';
+import logo from '../../assets/RMX.svg';
+import gob from '../../assets/Sin título-1.png';
+class Slide extends Component {
+
+    render() {
+        return (
+            <div className="slide">
+                <div className="box_slide">
+                    <img className="logo bot" src={logo} alt=""/>
+                  <div className="card_negra bot">
+                        <p className="bot"><strong>ACCEDE A UNA GRAN DIVERSIDAD DE PROPUESTAS DE SOLUCION</strong><br/>PARA LOS RETOS TECNOLÓGICOS Y DE NEGOCIO QUE TIENE TU ORGANIZACIÓN</p>
+                  </div>
+                    <div className="promotores bot">
+                        <img src={gob} alt=""/>
+                        <img src={gob} alt=""/>
+                        <img src={gob} alt=""/>
+                        <img src={gob} alt=""/>
+                    </div>
+                </div>
+            </div>
+        );
+    }
+}
+
+export default Slide;
