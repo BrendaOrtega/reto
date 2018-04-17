@@ -1,0 +1,118 @@
+
+.container-creencias{
+    background-image: url('./../../assets/bk-creencias.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    color: white;
+    text-shadow: 0 0 8px black;
+    opacity: 0.95;
+    font-family: Avenir;
+    overflow: hidden;
+}
+
+.container-frase{
+    display:table;
+    width: 100%;
+    height: 500px;
+    background-image: url('./../../assets/pattern.jpg');
+    text-align: center;
+}
+
+.container-frase h2{
+    font-family: Avenir;
+    font-size: calc(2vw + 1.5vh);
+    text-shadow: 0 0 7px wheat;
+}
+.container-frase span{
+   display:table-cell;
+   vertical-align:middle;
+}
+
+.container-main{
+    font-family: Avenir;
+    width: 100%;
+    background-color: rgb(0, 162, 164);
+    color: white;
+    overflow: hidden;
+    padding: 3%;
+}
+
+.title{
+    font-size: calc(3vw + 1.5vh);
+    display: table;
+    margin:0 auto;
+
+}
+.big-box{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+}
+
+.overlay{
+    padding: 2%;
+    width:100%;
+    height:100%;
+    Background-color:rgba(0,0,0,.5);
+}
+
+.container-creencias h2{
+    display: block;
+    font-size: calc(3vw + 1.5vh);
+    text-align: center;
+    color: white;
+}
+
+.box{
+    flex-grow: 1;
+    width: 500px;
+    padding: 10px;
+}
+
+.column-txt {
+    padding: 1%;
+    width: 400px;
+    flex-grow: 2;
+
+}
+
+.column-img{
+    flex-grow: 1;
+    height: 350px;
+}
+
+.row{
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+
+.row h2{
+    color: white;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+@media (max-width:1100px) {
+    .column-txt {
+        order: 1;
+        margin-left: initial;
+    }
+
+    .column-img{
+        height: 100%;
+        order: 2;
+    }
+
+    .container-frase {
+        height: 250px;
+    }
+}

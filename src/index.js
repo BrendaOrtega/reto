@@ -11,7 +11,6 @@ import registerServiceWorker from './registerServiceWorker';
 
 const WithRouter = () => (
     <BrowserRouter>
-
         <App />
     </BrowserRouter>
 
