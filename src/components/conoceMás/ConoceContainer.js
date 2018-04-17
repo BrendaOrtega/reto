@@ -7,7 +7,7 @@ class ConoceContainer extends Component {
   render() {
     return (
       <div>
-        <section className="slide">
+        <section className="banner-sabermas">
         <div className="box_slide">
             <img src={RMX} className="logo bot" alt="RMXLogo" />
             <div className="card_negra title-retadores">
