@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Nav.css';
+import {Link} from 'react-router-dom';
 
 class NavContainer extends Component {
 
@@ -9,8 +10,12 @@ class NavContainer extends Component {
                 <div className="nav_container">
                     <div >
                         <ul className="flex">
-                            <li className="pestanas">Home</li>
-                            <li className="pestanas">Conoce más</li>
+                            <Link to="/">
+                                <li className="pestanas">Home</li>
+                            </Link>
+                            <Link to="sabermas" >
+                                <li className="pestanas">Conoce más</li>
+                            </Link>
                             <li className="pestanas">Retos</li>
                             <li className="pestanas">Retadores</li>
                             <li className="pestanas">Participantes</li>
