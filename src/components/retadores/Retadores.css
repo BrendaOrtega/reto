@@ -1,0 +1,16 @@
+.banner-retadores {
+    background-position: center;
+    background-image: url('./../../assets/banner-retadores.jpg');
+    width:100%;
+    background-size:cover;
+    background-position:center;
+    display:flex;
+}
+
+.title-retadores{
+    font-size: calc(2vw + 1.5vh);
+    text-shadow: 0 0 5px black;
+    height: 1%;
+    background-color: transparent;
+}
+

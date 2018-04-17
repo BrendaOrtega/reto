@@ -1,11 +1,23 @@
 import React, { Component } from "react";
 import "./styles.css";
 import reto from '../../assets/bk-creencias.jpg'
+import RMX from '../../assets/RMX.svg'
 
 class ConoceContainer extends Component {
   render() {
     return (
       <div>
+        <section className="slide">
+        <div className="box_slide">
+            <img src={RMX} className="logo bot" alt="RMXLogo" />
+            <div className="card_negra title-retadores">
+              <p className="bot">
+                <strong>Traspasa los límites de tu organización </strong> <br/>
+                con la innovación abierta basada en retos.
+            </p>
+            </div>
+        </div>
+        </section>
         <section className="container-frase">
           <span>
             <h2><strong>La innovación abierta te permite acceder al flujo de conocimiento del exterior para acelerar los procesos internos de innovación y la aplicación de la misma</strong></h2>
