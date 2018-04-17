@@ -1,4 +1,13 @@
+.banner-sabermas{
+    text-align: center;
+    width:100%;
+    height:95vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url('./../../assets/banner.jpg');
+    text-transform: uppercase;
 
+}
 .container-creencias{
     background-image: url('./../../assets/bk-creencias.jpg');
     background-size: cover;
@@ -14,7 +23,7 @@
 .container-frase{
     display:table;
     width: 100%;
-    height: 500px;
+    height: 350px;
     background-image: url('./../../assets/pattern.jpg');
     text-align: center;
 }
@@ -37,7 +46,9 @@
     overflow: hidden;
     padding: 3%;
 }
-
+.rmx{
+    filter: drop-shadow(0 0 3px white);
+}
 .title{
     font-size: calc(3vw + 1.5vh);
     display: table;
